@@ -1,0 +1,28 @@
+body {
+    background-color: blueviolet;
+}
+
+.bloco-1, .bloco-2, .bloco-3 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+/*
+justify-content para alinhar os elementos no eixo principal
+align-items para alinhar os elementos no eixo perpendicular
+gap é usado para definir um espaçameneto específico entre os elementos
+*/

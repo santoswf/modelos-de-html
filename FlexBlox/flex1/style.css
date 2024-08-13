@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    margin: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 3px solid red;
+    width: 640px;
+    height: 480px;
+
+    display: flex;
+    align-items: center; /*alinhamento dos elementos no eixo y (vertical)*/
+    justify-content: center; /*alinhamento dos elementos no eixo x (horizontal)*/
+}
+
+.items {
+    border: 2px solid orange;
+    width: 120px;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.miolo {
+    border: 1px solid green;
+    width: 40px;
+    height: 40px;  
+}
+
+
+
+
+
+
+
+/* justify-content: space-around é usado para colocar o mesmo espaçamento nas laterais
+
+justify-content: space-between é usado para colocar o mesmo espaçamento entre todos os items
+
+justify-content: space-evenly é usado para colocar o espaçamento igual
+*/
